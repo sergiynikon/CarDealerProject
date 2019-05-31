@@ -5,6 +5,8 @@ namespace CarDealerProject
 {
     public class CarHelper
     {
+        CarService carService;
+        public CarHelper()
         {
             carService = new CarService();
         }
