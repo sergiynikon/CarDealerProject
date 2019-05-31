@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fdaa925a5f134f8f9b648dc11d67f87d" Name="Diagram1">
+        <EntityTypeShape EntityType="CarDealerDBModel.sysdiagram" Width="1.5" PointX="2.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarDealerDBModel.tblCar" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarDealerDBModel.tblCarLoan" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarDealerDBModel.tblCarsSold" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarDealerDBModel.tblCustomer" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarDealerDBModel.tblCustomerPayment" Width="1.5" PointX="8.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarDealerDBModel.tblFinanceCompany" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarDealerDBModel.tblPaymentStatu" Width="1.5" PointX="6" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarDealerDBModel.tblSupplier" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarDealerDBModel.CarMakeSoldCount" Width="1.5" PointX="4.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarDealerDBModel.CarSoldData" Width="1.5" PointX="6.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarDealerDBModel.CustomerPaymentsData" Width="1.5" PointX="8.75" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="CarDealerDBModel.FK__CarsSoldt__Car_I__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="CarDealerDBModel.FK__CarLoanst__CarSo__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="CarDealerDBModel.FK__CarLoanst__Finan__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="CarDealerDBModel.FK__CarsSoldt__Custo__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="CarDealerDBModel.FK__CarsSoldt__Suppl__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="CarDealerDBModel.FK__CustomerP__CarSo__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="CarDealerDBModel.FK__CustomerP__Custo__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="CarDealerDBModel.FK__CustomerP__Payme__52593CB8" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
